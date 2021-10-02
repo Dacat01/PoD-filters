@@ -2590,9 +2590,6 @@ ItemDisplay[EQ4 MAG !ETH TABSK50>2]: %NAME% %WHITE%+3 Martial Skills
 ////Shields////
 //
 //4os Monarch, +ed -req Monarch 4os
-
-ItemDisplay[uit !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %DARK_GREEN%%NAME%%WHITE% (4sox at larzuk) %WHITE%[L%ILVL%]
-
 ItemDisplay[uit !ETH !RW NMAG ED>0 ED<10 SOCK=4]: %DARK_GREEN%%NAME%%BLUE% +ED %RED%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG ED=10 SOCK=4]: %DARK_GREEN%%NAME%%BLUE% +10%ED %RED%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG ED=11 SOCK=4]: %DARK_GREEN%%NAME%%BLUE% +11%ED %RED%[%SOCKETS%]
@@ -2606,11 +2603,9 @@ ItemDisplay[uit !ETH !RW SOCK=4 NMAG]: %DARK_GREEN%%NAME% %YELLOW%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG ED>0 ED<14 SOCK=0]: %DARK_GREEN%%NAME%%BLUE% +ED %WHITE%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG ED=14 SOCK=0]: %DARK_GREEN%%NAME%%BLUE% +14%ED %RED%[%SOCKETS%]
 ItemDisplay[uit !ETH !RW NMAG ED=15 SOCK=0]: %MAP%%DARK_GREEN%%NAME%%BLUE% +15%ED %PURPLE%[%SOCKETS%]
-ItemDisplay[uit !ETH SOCK=0 NMAG]: %NAME% %WHITE%[%SOCKETS%]
+ItemDisplay[uit !ETH SOCK=0 NMAG]: %DARK_GREEN%%NAME%%WHITE% (4sox at larzuk) %WHITE%[L%ILVL%]
 ItemDisplay[uit ETH SOCK=0 NMAG]: ETH %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[uit ETH SOCK=4 NMAG]: ETH %NAME% %YELLOW%[%SOCKETS%]
-
-ItemDisplay[uit !ETH !RW NMAG SOCK=0 (ILVL>25 AND ILVL<41)]: %DARK_GREEN%%NAME%%WHITE% (4sox at larzuk) %WHITE%[L%ILVL%]
 
 //Magic Shields +3 Off skills
 ItemDisplay[EQ3 !ETH ID MAG TABSK25>2]: %NAME% %ORANGE%+3 Offensive Skills %YELLOW%[%SOCKETS%]
