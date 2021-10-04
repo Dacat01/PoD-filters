@@ -2,13 +2,6 @@
 //OBS autoupdate will remove any changes made to filter!
 //Find item codes at: https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes
 
-//----temporary filters----
-
-ItemDisplay[EQ1 !ETH NMAG SOCK=2]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
-
-//-----------------------------------------------
-
-
 
 //Basics
 //Hide Gold Piles
