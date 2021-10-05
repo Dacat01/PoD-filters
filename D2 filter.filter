@@ -3,9 +3,13 @@
 //Find item codes at: https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes
 
 //----temporary filters----
+ItemDisplay[WP12  NMAG]:  %WHITE%%NAME%
+ItemDisplay[WP12  MAG]:   %BLUE%%NAME%
+ItemDisplay[WP12  RARE]:  %YELLOW%%NAME%
 
-ItemDisplay[EQ2 !ETH NMAG SOCK=2]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
-
+ItemDisplay[WP13  NMAG]:  %WHITE%%NAME%
+ItemDisplay[WP13  MAG]:   %BLUE%%NAME%
+ItemDisplay[WP13  RARE]:  %YELLOW%%NAME%
 //-----------------------------------------------
 
 
@@ -13,7 +17,7 @@ ItemDisplay[EQ2 !ETH NMAG SOCK=2]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
 //Basics
 //Hide Gold Piles
 ItemDisplay[GOLD>999 (CLVL<40 AND CLVL>0)]: %NAME%
-ItemDisplay[GOLD>2999 (CLVL>39 AND CLVL<70)]: %NAME%
+ItemDisplay[GOLD>1900 (CLVL>39 AND CLVL<70)]: %NAME%
 ItemDisplay[GOLD>4999 CLVL>69]: %NAME%
 //Health & Mana Potions
 ItemDisplay[rvl]: %PURPLE%R %WHITE%70%
@@ -72,17 +76,17 @@ ItemDisplay[mbr]: %MAP%%NL%%ORANGE%Mephisto's Brain%NL%
 //Ear
 ItemDisplay[ear]: %ORANGE%%NAME%
 //Utility
-ItemDisplay[tsc CLVL<41]: %GREEN%!%WHITE%TP
-ItemDisplay[tsc CLVL>40]:
-ItemDisplay[isc CLVL<41]: %GREEN%!%WHITE%ID
-ItemDisplay[isc CLVL>40]:
+//ItemDisplay[ CLVL<41]: %GREEN%!%WHITE%TP
+//[tsc CLVL>40]:
+//ItemDisplay[isc CLVL<41]: %GREEN%!%WHITE%ID
+//ItemDisplay[isc CLVL>40]:
 //
-ItemDisplay[wms CLVL<60]: %GREEN%!%WHITE%Thaw
-ItemDisplay[wms CLVL>59]:
-ItemDisplay[yps (CLVL<22 OR CLVL>79)]: %GREEN%!%WHITE%A
-ItemDisplay[yps (CLVL>21 AND CLVL<80)]:
+//ItemDisplay[wms CLVL<60]: %GREEN%!%WHITE%Thaw
+//ItemDisplay[wms CLVL>59]:
+//ItemDisplay[yps (CLVL<22 OR CLVL>79)]: %GREEN%!%WHITE%A
+// ItemDisplay[yps (CLVL>21 AND CLVL<80)]:
 //Keys for Locked Chests
-ItemDisplay[key]: %GRAY%Key
+//ItemDisplay[key]: %GRAY%Key
 //Tomes
 ItemDisplay[tbk]: %WHITE%Tome of Town Portal
 ItemDisplay[ibk]: %WHITE%Tome of Identify
@@ -94,7 +98,7 @@ ItemDisplay[ops]:%CONTINUE%
 ItemDisplay[gps]:%CONTINUE%
 ItemDisplay[gpl]:%CONTINUE%
 ItemDisplay[vps CLVL<22]: %GREEN%!%WHITE%Stamina
-ItemDisplay[vps CLVL>21]:
+// ItemDisplay[vps CLVL>21]:
 //Hide MAGIC Quivers & Bolts above level 40
 ItemDisplay[aq2 MAG ILVL>50]:
 ItemDisplay[aq2 !ID RARE]: %MAP%%NAME%
@@ -251,7 +255,7 @@ ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) !ETH !ID]: %YEL
 ItemDisplay[RARE (CL1 OR CL2 OR CL3 OR CL4 OR CL5 OR CL6 OR CL7) ETH !ID]: ETH %YELLOW%%NAME%
 ItemDisplay[RARE (WP12 OR EQ4 OR EQ5 OR EQ6) !ETH !ID]: %YELLOW%%NAME%
 ItemDisplay[RARE (WP12 OR EQ4 OR EQ5 OR EQ6) ETH !ID]: ETH %YELLOW%%NAME%
-//Helms
+//Helms-
 ItemDisplay[RARE (uap OR uhm OR usk OR urn OR uh9 OR xhm OR xsk OR xrn OR xh9) !ETH !ID]: %YELLOW%%NAME%
 //Axes and Swords
 ItemDisplay[RARE (7wa OR 9wa OR wax) !ETH !ID]: %YELLOW%%NAME%
@@ -3840,7 +3844,7 @@ ItemDisplay[(6mx OR 6hx OR 6rx) NMAG ED>0 ED<15 !SOCK=1 !SOCK=2 !SOCK=3 !SOCK=5]
 ItemDisplay[mxb NMAG SOCK=4]: %NAME% %GRAY%[%SOCKETS%]
 ItemDisplay[(8rx OR 6hx OR 6mx) NMAG SOCK=4]: %NAME% %WHITE%[%SOCKETS%]
 //Crossbow - Hidden
-ItemDisplay[WP10 NMAG ILVL>54]:
+//ItemDisplay[WP10 NMAG ILVL>54]:
 
 ////Amazon Bows////
 //
