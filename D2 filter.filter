@@ -3,13 +3,25 @@
 //Find item codes at: https://pathofdiablo.com/wiki/index.php?title=Loot_Filtration_Codes
 
 //----temporary filters----
-ItemDisplay[WP12  NMAG]:  %WHITE%%NAME%
-ItemDisplay[WP12  MAG]:   %BLUE%%NAME%
-ItemDisplay[WP12  RARE]:  %YELLOW%%NAME%
 
-ItemDisplay[WP13  NMAG]:  %WHITE%%NAME%
-ItemDisplay[WP13  MAG]:   %BLUE%%NAME%
+//ItemDisplay[WP12  MAG]:   %BLUE%%NAME%
+//ItemDisplay[WP12  RARE]:  %YELLOW%%NAME%
+
+
+//ItemDisplay[WP13  MAG]:   %BLUE%%NAME%
+//ItemDisplay[WP13  RARE]:  %YELLOW%%NAME%
+
+ItemDisplay[EQ7  RARE]:  %YELLOW%%NAME%
+ItemDisplay[EQ6  RARE]:  %YELLOW%%NAME%
+ItemDisplay[EQ5  RARE]:  %YELLOW%%NAME%
+ItemDisplay[EQ4  RARE]:  %YELLOW%%NAME%
+ItemDisplay[EQ1  RARE]:  %YELLOW%%NAME%
 ItemDisplay[WP13  RARE]:  %YELLOW%%NAME%
+ItemDisplay[WP12  RARE]:  %YELLOW%%NAME%
+ItemDisplay[WP5  RARE]:  %YELLOW%%NAME%
+ItemDisplay[WP4  RARE]:  %YELLOW%%NAME%
+
+
 //-----------------------------------------------
 
 
