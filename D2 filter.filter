@@ -4,7 +4,7 @@
 
 //----temporary filters----
 
-ItemDisplay[EQ1 !ETH NMAG SOCK=2]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
+ItemDisplay[EQ2 !ETH NMAG SOCK=2]: %DARK_GREEN%%NAME% %GRAY%[%SOCKETS%]
 
 //-----------------------------------------------
 
